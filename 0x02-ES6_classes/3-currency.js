@@ -1,8 +1,8 @@
-// eslint-disable no-underscore-dangle
+/* eslint-disable no-underscore-dangle */
 class Currency {
   constructor(code = '', name = '') {
     this._code = code;
-    this._code = name;
+    this._name = name;
   }
 
   set code(code = '') {
@@ -26,3 +26,4 @@ class Currency {
   }
 }
 export default Currency;
+
