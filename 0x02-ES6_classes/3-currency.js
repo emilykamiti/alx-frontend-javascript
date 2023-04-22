@@ -1,4 +1,4 @@
-/* eslint-disable no-underscore-dangle */
+// eslint-disable no-underscore-dangle
 class Currency {
   constructor(code = '', name = '') {
     this._code = code;
